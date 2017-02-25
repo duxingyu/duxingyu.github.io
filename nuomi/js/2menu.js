@@ -14,8 +14,8 @@
 		}
 		init() {
 			document.addEventListener('contextmenu', this.enContextmenu.bind(this), false);
-			document.addEventListener('click', this.disContextmenu, false);
-			document.addEventListener('mousewheel', this.disContextmenu, false);
+			document.addEventListener('click', this.disContextmenu.bind(this), false);
+			document.addEventListener('mousewheel', this.disContextmenu.bind(this), false);
 			this.menu.addEventListener('click', e => e.stopPropagation(), false);
 		}
 		enContextmenu(e) {
