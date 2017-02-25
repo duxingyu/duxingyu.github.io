@@ -1,0 +1,68 @@
+input {
+	display: none;
+}
+label {
+	cursor: pointer;
+}
+
+/*form1 采用伪元素实现*/
+
+#form1 label {
+	display: inline-block;
+	border: 1px solid #d9d9d9;
+	position: relative;
+	box-sizing: border-box;
+}
+.r1+label {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+}
+.c1+label {
+	width: 15px;
+	height: 15px;
+}
+#form1 :checked+label {
+	border: 1px solid #d73e33;
+}
+.r1:checked+label::after {
+	content: "";
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	background-color: #d73e33;
+	border-radius: 50%;
+}
+.c1:checked+label::after {
+	content: "";
+	width: 3px;
+	height: 5px;
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	border-color: #d73e33;
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+/*form2 采用背景图实现*/
+
+#form2 label {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/checkbox.png);
+	background-position-x: -24px;
+}
+.r2+label {
+	background-position-y: -10px;
+}
+.c2+label {
+	background-position-y: -32px;
+}
+#form2 :checked+label {
+	background-position-x: -59px;
+}
