@@ -24,10 +24,10 @@ function fn(nodes, frag) {
 			let wrap = document.createElement('div');
 			let folderName = document.createElement('h3');
 			folderName.innerText = nodes[i].name;
-			div.appendChild(folderName);
+			wrap.appendChild(folderName);
 			let fileFolder = document.createElement('div');
 			fn(nodes[i].children, fileFolder);
-			div.appendChild(fileFolder);
+			wrap.appendChild(fileFolder);
 			frag.appendChild(wrap);
 		}
 	}
