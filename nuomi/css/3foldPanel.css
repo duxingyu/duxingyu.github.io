@@ -1,40 +1,40 @@
 body {
-	font: 14px/20px "Microsoft Yahei";
+  font: 14px/20px "Microsoft Yahei";
 }
 .wrap div {
-	overflow: hidden;
-	margin-bottom: 4px;
-	width: 654px;
-	border: 1px solid #ddd;
-	border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 4px;
+  width: 654px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 input {
-	display: none;
+  display: none;
 }
 label {
-	font-weight: 700;
-	padding: 10px 15px;
-	width: 624px;
-	height: 17px;
-	display: inline-block;
-	background-color: #f5f5f5;
-	cursor: pointer;
+  font-weight: 700;
+  padding: 10px 15px;
+  width: 624px;
+  height: 17px;
+  display: inline-block;
+  background-color: #f5f5f5;
+  cursor: pointer;
 }
 label:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 p {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 0;
-	width: 624px;
-	height: 0;
-	background-color: #fff;
-	transition: height 0.25s ease-out, padding-top 0.25s ease-out, padding-bottom 0.25s ease-out;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  width: 624px;
+  height: 0;
+  background-color: #fff;
+  transition: height 0.25s ease-out, padding-top 0.25s ease-out, padding-bottom 0.25s ease-out;
 }
 input:checked~p {
-	height: 140px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border-top: 1px solid #ddd;
+  height: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #ddd;
 }
