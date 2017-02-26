@@ -1,43 +1,43 @@
 p,
 h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-	cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: pointer;
 }
 body {
-	font-size: 16px;
-	font-family: "黑体";
+  font-size: 16px;
+  font-family: "黑体";
 }
 h3 {
-	font-size: 16px;
-	line-height: 26px;
-	height: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  height: 26px;
 }
 div {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 h3::before,
 p::before {
-	content: "";
-	height: 16px;
-	margin-right: 4px;
-	background-image: url(../img/fold.png);
-	display: inline-block;
-	vertical-align: text-top;
+  content: "";
+  height: 16px;
+  margin-right: 4px;
+  background-image: url(../img/fold.png);
+  display: inline-block;
+  vertical-align: text-top;
 }
 h3::before {
-	width: 21px;
-	background-position: -30px 0;
+  width: 21px;
+  background-position: -30px 0;
 }
 p::before {
-	margin-left: 10px;
-	width: 15px;
-	background-image: url(../img/fold.png);
-	background-position: -58px 0;
+  margin-left: 10px;
+  width: 15px;
+  background-image: url(../img/fold.png);
+  background-position: -58px 0;
 }
 .active {
-	display: none;
+  display: none;
 }
 .fold::before {
-	background-position: 0 0;
+  background-position: 0 0;
 }
