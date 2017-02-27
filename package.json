@@ -1,0 +1,24 @@
+{
+  "name": "gitio",
+  "version": "1.0.0",
+  "description": "This is my personal site!Welcome!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxingyu/duxingyu.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duxingyu/duxingyu.github.io/issues"
+  },
+  "homepage": "https://github.com/duxingyu/duxingyu.github.io#readme",
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
