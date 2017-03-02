@@ -1,0 +1,833 @@
+body {
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  font-size: 12px;
+  margin: 0;
+  color: #333;
+  background-color: #f6f7f8;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+p,
+dl,
+dd,
+ul,
+p,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+em,
+i {
+  font-style: normal;
+}
+ul,
+li {
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.clear::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/*顶部导航栏，主logo及搜索部分：header*/
+
+header {
+  height: 138px;
+  background-color: #fff;
+}
+header .wrapnav {
+  width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+
+/*顶部导航栏部分：nav*/
+
+header nav {
+  width: 989px;
+  height: 35px;
+  /*border-bottom: 1px solid #eee;*/
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  position: relative;
+  font-family: 宋体;
+}
+
+/**
+ * 顶部一级导航
+ * dropbox：独立导航块
+ * dislink：非链接导航
+ * dropdown：有下拉列表的导航样式（箭头）
+ * droplist：下拉列表
+ * listanima：用于下拉列表动画的包裹元素
+ * top_link：下拉列表中各项链接公共样式
+ */
+
+.dropbox {
+  float: left;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.dropbox>a {
+  display: block;
+  height: 35px;
+  padding: 0 10px;
+  line-height: 35px;
+  color: #666;
+}
+.dropbox>a:hover {
+  color: #f60;
+}
+.dislink:hover {
+  color: #666;
+}
+.dropdown {
+  /*z-index: 3;*/
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+.dropbox:hover .dropdown {
+  height: 36px;
+  z-index: 2;
+  border-color: #ddd;
+  border-bottom-color: #fff;
+  background-color: #fff;
+  position: relative;
+}
+.dropdown span::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-left: 6px;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+  border-right: 1px solid #c7c4ce;
+  border-bottom: 1px solid #c7c4ce;
+  transform-origin: 75% 75%;
+  transform: rotate(45deg);
+  transition: transform .3s ease;
+}
+.dropbox:hover span::after {
+  transform: rotate(-135deg);
+  transition: transform .3s ease;
+}
+.droplist {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  height: 0;
+  transition: height 0.3s ease;
+  overflow: hidden;
+  background-color: #fff;
+}
+.dropbox:hover .droplist {
+  border: 1px solid #ddd;
+}
+.droplist a {
+  color: #666;
+}
+.droplist a:hover {
+  color: #f60;
+}
+.top_link>a {
+  display: block;
+  width: 71px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  float: left;
+}
+
+/*导航左边样式*/
+
+#allnav {
+  float: left;
+}
+
+/*网站导航列表*/
+
+#webnav .listanima {
+  width: 988px;
+  padding: 20px 0;
+}
+#webnav:hover .droplist {
+  height: 242px;
+}
+#webnav .droplist dl {
+  width: 176px;
+  height: 200px;
+  padding-left: 20px;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+#webnav .droplist dl:last-child {
+  border-right: none;
+}
+#webnav .droplist dt {
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  height: 25px;
+  line-height: 17px;
+}
+#webnav .droplist p {
+  float: left;
+  width: 78px;
+  height: 25px;
+  line-height: 25px;
+}
+.hot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/suning/npbg.png);
+  background-position: 0 -205px;
+}
+
+/*事件处理函数*/
+
+#close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  font-size: 27px;
+}
+#close:hover {
+  color: #f60;
+}
+
+/*商家入驻列表*/
+
+#business:hover .droplist {
+  height: 96px;
+}
+#business .listanima {
+  width: 164px;
+  padding: 5px 0;
+}
+
+/*顶部右边导航*/
+
+#othernav {
+  float: right;
+}
+
+/*登陆注册*/
+
+#login {
+  width: 76px;
+  padding-right: 4px;
+  float: left;
+}
+#login:hover,
+#login:hover .dropbox {
+  background-color: #eee;
+}
+#login .dropbox>a {
+  padding: 0 4px 0 10px;
+}
+
+/*其他*/
+
+#leftnav {
+  float: left;
+}
+
+/*我的订单*/
+
+#order .listanima {
+  width: 81px;
+}
+#order:hover .droplist {
+  height: 120px;
+}
+
+/*我的易购*/
+
+#yigou .listanima {
+  width: 162px;
+  padding-bottom: 5px;
+}
+#yigou:hover .droplist {
+  height: 156px;
+}
+#yigou em {
+  display: inline-block;
+  background-image: url(../img/suning/icons.png);
+  background-position: -60px -193px;
+  width: 14px;
+  height: 14px;
+  vertical-align: text-bottom;
+}
+
+/*用户头像登陆部分*/
+
+#yitop {
+  width: 142px;
+  height: 56px;
+  margin: 5px 10px;
+}
+#yitop>a {
+  float: left;
+}
+#yitop img {
+  width: 56px;
+  height: 56px;
+}
+#yitop div {
+  width: 82px;
+  height: 56px;
+  float: right;
+}
+#yitop div a {
+  display: block;
+  width: 62px;
+  margin-left: 20px;
+  float: left;
+}
+#yitop div a:first-of-type {
+  height: 28px;
+  line-height: 28px;
+}
+#yitop div a:last-of-type {
+  height: 22px;
+  line-height: 22px;
+  background-color: #f60;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/*购物车*/
+
+#cart a {
+  padding-right: 16px;
+}
+#cart span::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  margin-right: 6px;
+  background-image: url(../img/suning/icons.png);
+  background-position: 0 -193px;
+  vertical-align: text-bottom;
+}
+#cart i {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}
+#cart i::after {
+  content: "0";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7a705;
+  border-radius: 50%;
+}
+
+/*手机苏宁*/
+
+#msuning span::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 16px;
+  margin-right: 6px;
+  background-image: url(../img/suning/icons.png);
+  background-position: -20px -193px;
+  vertical-align: text-bottom;
+}
+
+/*客户服务*/
+
+#client .listanima {
+  width: 162px;
+  padding: 5px 0;
+}
+#client .droplist {
+  left: -81px;
+}
+#client:hover .droplist {
+  height: 100px;
+}
+#client em {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/suning/icons.png);
+  background-position: -80px -193px;
+  vertical-align: text-bottom;
+}
+
+/*上方活动按钮*/
+
+#active_btn {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/suning/icons.png);
+  background-position: -106px -160px;
+  position: absolute;
+  top: 3px;
+  right: -56px;
+}
+#active_btn:hover {
+  background-position: -121px -160px;
+}
+
+/*主logo及搜索部分：maintain*/
+
+#maintain {
+  height: 100px;
+  width: 990px;
+  margin: 0 auto;
+  position: relative;
+}
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/**
+ * 右边搜索部分：#serachbox
+ * 搜索输入框部分：#serach_inp
+ * 搜索按钮：#serach
+ * 聚焦搜索框后显示列表：#serach_list
+ * 列表左（历史搜索列表）：#history_list
+ * 列表右（热门搜索列表）：#hot_list
+ * 搜索框下的关键词：#serach_key
+ */
+
+#serachbox {
+  /*float: right;*/
+  width: 550px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#serach_inp {
+  position: relative;
+  margin-top: 30px;
+}
+#serach_inp>span {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/suning/icons.png);
+  background-position: -130px -193px;
+}
+#serach_inp input {
+  padding: 0;
+  outline: none;
+  width: 436px;
+  height: 18px;
+  line-height: 18px;
+  padding: 9px 10px 9px 0;
+  background-color: #fff;
+  border: 2px solid #ffc001;
+  text-indent: 30px;
+}
+#serach_inp input:focus~#serach_list {
+  display: block;
+}
+#serach {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  width: 96px;
+  height: 36px;
+  font-size: 16px;
+  font-family: 黑体;
+  line-height: 36px;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 8px;
+  font-weight: 700;
+  border: 2px solid #ffc001;
+  background-color: #ffc001;
+  color: #333;
+}
+#serach_list {
+  display: none;
+  position: absolute;
+  top: 41px;
+  right: 0;
+  width: 548px;
+  height: 269px;
+  border: 1px solid #e4e4e4;
+  background-color: #fff;
+  z-index: 1;
+}
+#history_list {
+  width: 276px;
+  border-right: 1px solid #efefef;
+  float: left;
+  height: 269px;
+}
+#history_list h3 {
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 12px;
+  background-color: #eee;
+  color: #9e9e9e;
+}
+#history_list div {
+  margin: 40px 58px;
+}
+#hot_list {
+  width: 271px;
+  float: left;
+  height: 269px;
+}
+#hot_list dt {
+  width: 256px;
+  padding-left: 15px;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 7px;
+  color: #999;
+  position: relative;
+}
+#hot_list dt i {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 10px;
+  height: 10px;
+  font-size: 27px;
+  line-height: 10px;
+  cursor: pointer;
+}
+#hot_list dt i:hover {
+  color: #f60;
+}
+#hot_list dd {
+  float: left;
+  margin: 0 0 15px 15px;
+}
+#hot_list dd a {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 5px;
+  border: 1px solid #e1e1e1;
+  color: #747474;
+}
+#hot_list dd a:hover {
+  background-color: #f60;
+  color: #fff;
+  border-color: #f60;
+}
+#serach_key {
+  margin-top: 5px;
+  width: 550px;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+}
+#serach_key a {
+  float: left;
+  padding-right: 10px;
+  color: #999;
+}
+#serach_key a:hover {
+  color: #f60;
+}
+
+/*全部商品分类、大屏广告及周边区域*/
+
+#first_screen {
+  width: 100%;
+  height: 493px;
+  position: relative;
+  background: #fff url(../img/suning/floor-bg-new.gif) 50% 50% no-repeat;
+}
+#first_screen .wrap {
+  width: 989px;
+  margin: 0 auto;
+  position: relative;
+}
+#sort_all {
+  height: 493px;
+  width: 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+#sort_all h2 {
+  width: 190px;
+  height: 36px;
+  background-color: #ffc001;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  color: #333;
+}
+#sort_all h2 a {
+  color: #333;
+}
+#sort_all>ul {
+  border-top: 2px solid #e9e9e9;
+  background-color: #f4f4f4;
+  box-shadow: 0 1px 1px 1px #eee;
+}
+#sort_all>ul li {
+  width: 185px;
+  height: 35px;
+  padding-left: 5px;
+}
+#sort_all>ul li a {
+  float: left;
+  margin-left: 7px;
+  height: 35px;
+  line-height: 35px;
+  color: #333;
+}
+#sort_all>ul li span {
+  float: right;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  margin: 12px 12px 0 0;
+}
+#sort_all .f848 {
+  background-color: #f8484a;
+}
+#sort_all .f848 a {
+  color: #fff;
+}
+#sort_all .f848 span {
+  border-left-color: #fff;
+}
+#sort_detail {
+  visibility: hidden;
+  width: 798px;
+  min-height: 451px;
+  border: 2px solid #fa4b4b;
+  position: absolute;
+  top: 38px;
+  left: 190px;
+  z-index: 10;
+  background-color: #fff;
+}
+#brief_nav {
+  width: 475px;
+  height: 24px;
+  margin: 10px 0 2px 8px;
+  overflow: hidden;
+}
+#brief_nav li {
+  float: left;
+  padding-left: 25px;
+}
+#brief_nav a {
+  display: block;
+  height: 24px;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fa4c4c;
+}
+#detail_nav {
+  width: 444px;
+  margin: 0 0 8px 30px;
+}
+#detail_nav dl {
+  width: 444px;
+  position: relative;
+  padding-top: 12px;
+}
+#detail_nav dt {
+  float: left;
+  width: 84px;
+}
+#detail_nav a {
+  line-height: 21px;
+}
+#detail_nav a:hover {
+  color: #f60;
+}
+#detail_nav dt a {
+  font-weight: 700;
+  color: #333;
+}
+#detail_nav dd {
+  float: left;
+  border-bottom: 1px solid #eee;
+  width: 360px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}
+#detail_nav dd a {
+  float: left;
+  padding-right: 14px;
+  color: #6f6a66;
+}
+#detail_nav .orange {
+  color: #f60;
+}
+#brand_img {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  width: 256px;
+  height: 165px;
+}
+#brand_img a {
+  width: 123px;
+  height: 50px;
+  float: left;
+  padding: 0 5px 5px 0;
+}
+#brand_img img {
+  width: 123px;
+  height: 50px;
+}
+#act_img {
+  position: absolute;
+  top: 192px;
+  right: 10px;
+}
+#act_img a {
+  display: block;
+  width: 251px;
+  height: 120px;
+  padding-bottom: 5px;
+}
+#act_img img {
+  width: 251px;
+  height: 120px;
+}
+#sort_rnav {
+  width: 785px;
+  height: 36px;
+  padding-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 190px;
+  font-family: "Microsoft Yahei";
+}
+#sort_rnav li {
+  padding: 0 12px 0 13px;
+  float: left;
+}
+#sort_rnav li a {
+  height: 36px;
+  line-height: 36px;
+  color: #333;
+  font-size: 15px;
+}
+#sort_rnav li a:hover {
+  color: #f60;
+}
+#cuxiao {
+  position: absolute;
+  top: 38px;
+  left: 190px;
+}
+#cuxiao ul {
+  width: 770px;
+  height: 455px;
+  overflow: hidden;
+}
+#cuxiao li {
+  float: left;
+}
+#cuxiao li img {
+  width: 770px;
+  height: 455px;
+}
+#cuxiao .arrow {
+  top: 208px;
+  left: 10px;
+  width: 750px;
+}
+#cuxiao:hover .arrow {
+  display: block;
+}
+
+/*轮播图上一张下一张：arrow*/
+
+.arrow {
+  position: absolute;
+  height: 78px;
+  display: none;
+}
+.arrow a {
+  width: 38px;
+  height: 78px;
+  background-image: url(../img/suning/icons.png);
+  opacity: 0.6;
+}
+.arrow:hover a {
+  opacity: 1;
+}
+.arrow a:first-of-type {
+  float: left;
+  background-position: 0 -51px;
+}
+.arrow a:last-of-type {
+  float: right;
+  background-position: -43px -51px;
+}
+
+/*翻页*/
+
+.pageing {
+  position: absolute;
+  top: 425px;
+  left: 325px;
+}
+.pageing a {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #333;
+}
+.pageing .current {
+  background-color: #f60;
+}
+#line000 {
+  width: 100%;
+  border-bottom: 2px solid #333;
+  position: absolute;
+  top: 36px;
+}
