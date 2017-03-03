@@ -1,4 +1,4 @@
-jsonp('http://lib.suning.com/api/jsonp/cb/sortList_v5-threeSortLoad.jsonp?callback=threeSortLoad');
+jsonp('https://lib.suning.com/api/jsonp/cb/sortList_v5-threeSortLoad.jsonp?callback=threeSortLoad');
 let allsort = null;
 
 function threeSortLoad(data) {
@@ -74,7 +74,7 @@ function getBrandImg(num) {
   let arr = allsort.nodes[num].nodes[2].tag;
   let oHtml = '';
   for (let i = 0; i < arr.length; i++) {
-    oHtml += `<a href=${arr[i].linkUrl}><img src=http://image.suning.cn${arr[i].picUrl}></a>`;
+    oHtml += `<a href=${arr[i].linkUrl}><img src=https://image.suning.cn${arr[i].picUrl}></a>`;
   }
   brandImg.innerHTML = oHtml;
 }
@@ -84,7 +84,7 @@ function getActImg(num) {
   let arr = allsort.nodes[num].nodes[3].tag;
   let oHtml = '';
   for (let i = 0; i < arr.length; i++) {
-    oHtml += `<a href=${arr[i].linkUrl}><img src=http://image.suning.cn${arr[i].picUrl}></a>`;
+    oHtml += `<a href=${arr[i].linkUrl}><img src=https://image.suning.cn${arr[i].picUrl}></a>`;
   }
   actImg.innerHTML = oHtml;
 }
@@ -118,7 +118,7 @@ let homepage = document.getElementById('home_page');
 let oT1 = getRootTop(homepage);
 
 function lazyload184362(data) {
-  homepage.innerHTML = data.data.replace(/\<script type=\"text\/html\"\>(\W+.+\W+.+\W\W)\<\/script\>/g, '$1').replace(/(\/\/image)/g, 'http:$1');
+  homepage.innerHTML = data.data.replace(/\<script type=\"text\/html\"\>(\W+.+\W+.+\W\W)\<\/script\>/g, '$1').replace(/(\/\/image)/g, 'https:$1');
   [...homepage.getElementsByTagName('img')].forEach(val => {
     if (!val.src) {
       val.src = val.getAttribute('lazy-src')
@@ -130,7 +130,7 @@ function lazyload184362(data) {
 
 function lazyLoad1() {
   if (window.scrollY + 300 >= oT1) {
-    jsonp('http://lib.suning.com/homepage/model/homepage1_184362_lazyload184362.json?callback=lazyload184362');
+    jsonp('https://lib.suning.com/homepage/model/homepage1_184362_lazyload184362.json?callback=lazyload184362');
     window.removeEventListener('scroll', lazyLoad1, false);
     lazyLoad1 = null;
   }
@@ -138,7 +138,7 @@ function lazyLoad1() {
 }
 window.addEventListener('scroll', lazyLoad1, false);
 
-document.getElementById('home_page').baseURI = 'http:';
+document.getElementById('home_page').baseURI = 'https:';
 
 // 精选好货
 
@@ -147,12 +147,12 @@ function hhCb(data) {
   const aLink = jxhh.getElementsByTagName('a');
   let d = data.sugGoods[0].skus;
   [...aLink].forEach((val, index) => {
-    val.href = `http://news.suning.com/ditem.html?contentId=${d.contentId}`;
+    val.href = `https://news.suning.com/ditem.html?contentId=${d.contentId}`;
     val.children[0].innerHTML = d[index].txtDes;
-    val.children[1].src = `http://image.suning.cn/uimg/b2c/qrqm/${d[index].vendorId}${d[index].sugGoodsCode}_200x200.jpg?ver=${d[index].picVersion}`;
+    val.children[1].src = `https://image.suning.cn/uimg/b2c/qrqm/${d[index].vendorId}${d[index].sugGoodsCode}_200x200.jpg?ver=${d[index].picVersion}`;
   });
 }
-jsonp('http://tuijian.suning.com/recommend-portal/dyBase.jsonp?u=&c=148836310511822991&cityId=010&sceneIds=10-64&count=6&callback=hhCb');
+jsonp('https://tuijian.suning.com/recommend-portal/dyBase.jsonp?u=&c=148836310511822991&cityId=010&sceneIds=10-64&count=6&callback=hhCb');
 // contentId: "8914086244"
 // handwork: "5_10-64_14_A"
 // picVersion: "2013"
@@ -167,7 +167,7 @@ jsonp('http://tuijian.suning.com/recommend-portal/dyBase.jsonp?u=&c=148836310511
 
 // 为您推荐
 
-jsonp('http://tuijian.suning.com/recommend-portal/recommendv2/biz.jsonp?&u=&c=148836310511822991&cityId=358&sceneIds=9-7&count=10&callback=recommandListSix');
+jsonp('https://tuijian.suning.com/recommend-portal/recommendv2/biz.jsonp?&u=&c=148836310511822991&cityId=358&sceneIds=9-7&count=10&callback=recommandListSix');
 
 function recommandListSix(data) {
   const wntj = document.getElementById('wntj').getElementsByTagName('ul')[0];
@@ -178,11 +178,11 @@ function recommandListSix(data) {
     let di = d[i];
     let nam = di.sugGoodsName;
     let cod = di.sugGoodsCode;
-    let dia = `<a href="http://product.suning.com/${di.vendorId}/${cod.substring(9)}.html?srcPoint=index3_none_rectopcnxh_1-1_p_0000000000_102878794_01A_4-2_0_A&src=index3_none_rectopcnxh_1-1_p_0000000000_102878794_01A_4-2_0_A" title="${nam}">`;
+    let dia = `<a href="https://product.suning.com/${di.vendorId}/${cod.substring(9)}.html?srcPoint=index3_none_rectopcnxh_1-1_p_0000000000_102878794_01A_4-2_0_A&src=index3_none_rectopcnxh_1-1_p_0000000000_102878794_01A_4-2_0_A" title="${nam}">`;
     oHtml +=
       `<li class="item">
         ${dia}
-          <img alt="${nam}" src="http://image.suning.cn/uimg/b2c/newcatentries/${di.vendorId}-${cod}_1_160x160.jpg">
+          <img alt="${nam}" src="https://image.suning.cn/uimg/b2c/newcatentries/${di.vendorId}-${cod}_1_160x160.jpg">
         </a>
         <p>${dia}${nam}</a></p>
         <span><i>￥</i><em>${di.price}</em></i></span>
@@ -193,7 +193,7 @@ function recommandListSix(data) {
 
 // F1 服装百货
 
-jsonp('http://lib.suning.com/homepage/model/homepage1_184374_lazyload184374.json?callback=lazyload184374');
+jsonp('https://lib.suning.com/homepage/model/homepage1_184374_lazyload184374.json?callback=lazyload184374');
 
 function lazyload184374(data) {
   const floor1 = document.getElementsByClassName('floor_main')[0];
@@ -202,10 +202,10 @@ function lazyload184374(data) {
   let aP = floor1.getElementsByTagName('p');
   [...aPic].forEach(val => {
     if (val.getAttribute('lazy-src')) {
-      val.src = 'http:' + val.getAttribute('lazy-src');
+      val.src = 'https:' + val.getAttribute('lazy-src');
     }
     if (val.getAttribute('d-src')) {
-      val.src = 'http:' + val.getAttribute('d-src');
+      val.src = 'https:' + val.getAttribute('d-src');
     }
   });
   for (let attr of aP) {
@@ -214,7 +214,7 @@ function lazyload184374(data) {
     }
   }
 }
-jsonp('http://tuijian.suning.com/recommend-portal/recommendv2/biz.jsonp?&u=&c=148836310511822991&cityId=9252&sceneIds=12-14&count=48&callback=recommandAll');
+jsonp('https://tuijian.suning.com/recommend-portal/recommendv2/biz.jsonp?&u=&c=148836310511822991&cityId=9252&sceneIds=12-14&count=48&callback=recommandAll');
 
 function recommandAll(data) {
   const recommandList = document.getElementById('recommand_list');
@@ -225,11 +225,11 @@ function recommandAll(data) {
     let di = d[i];
     let nam = di.sugGoodsName;
     let cod = di.sugGoodsCode;
-    let dia = `<a href="http://product.suning.com/${di.vendorId}/${cod.substring(9)}.html?srcPoint=index3_none_recscnxh_1-47_p_0000000000_103637781_01A_6-1_0_A&src=index3_none_recscnxh_1-47_p_0000000000_103637781_01A_6-1_0_A" title="${nam}">`;
+    let dia = `<a href="https://product.suning.com/${di.vendorId}/${cod.substring(9)}.html?srcPoint=index3_none_recscnxh_1-47_p_0000000000_103637781_01A_6-1_0_A&src=index3_none_recscnxh_1-47_p_0000000000_103637781_01A_6-1_0_A" title="${nam}">`;
     oHtml +=
       `<li class="item${i%6+1}">
         ${dia}
-          <img alt="${nam}" src="http://image.suning.cn/uimg/b2c/newcatentries/${di.vendorId}-${cod}_1_160x160.jpg">
+          <img alt="${nam}" src="https://image.suning.cn/uimg/b2c/newcatentries/${di.vendorId}-${cod}_1_160x160.jpg">
         </a>
         <p>${dia}${nam}</a></p>
         <span class="price"><i>￥</i><em>${di.price}</em></i></span>`;
