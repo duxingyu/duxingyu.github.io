@@ -1,0 +1,29 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:f1641ae38694d390803953d971015e12:7124e82bc63032c97c5bb3958664de23:5afdacc1829e1f25a65c8891d12a3aca$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.spriteq {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(questions.png);}
+
+.spriteq.ans11 {width:389px; height:310px; background-position: -1px -186px}
+.spriteq.ans12 {width:273px; height:226px; background-position: -680px -977px}
+.spriteq.ans21 {width:305px; height:286px; background-position: -680px -689px}
+.spriteq.ans22 {width:340px; height:326px; background-position: -665px -49px}
+.spriteq.ans31 {width:351px; height:364px; background-position: -1px -917px}
+.spriteq.ans32 {width:292px; height:384px; background-position: -386px -893px}
+.spriteq.ans41 {width:383px; height:373px; background-position: -1px -542px}
+.spriteq.ans42 {width:375px; height:310px; background-position: -630px -377px}
+.spriteq.ans51 {width:219px; height:353px; background-position: -388px -538px}
+.spriteq.ans52 {width:236px; height:350px; background-position: -392px -186px}
+.spriteq.ques1 {width:528px; height:43px; background-position: -1px -141px}
+.spriteq.ques2 {width:662px; height:44px; background-position: -1px -49px}
+.spriteq.ques3 {width:801px; height:46px; background-position: -1px -1px}
+.spriteq.ques4 {width:385px; height:42px; background-position: -1px -498px}
+.spriteq.ques5 {width:528px; height:44px; background-position: -1px -95px}

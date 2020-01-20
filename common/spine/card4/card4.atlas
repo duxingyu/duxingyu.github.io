@@ -1,0 +1,41 @@
+
+ch4.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BT3a
+  rotate: false
+  xy: 0, 0
+  size: 167, 156
+  orig: 167, 156
+  offset: 0, 0
+  index: -1
+BT3b
+  rotate: true
+  xy: 321, 6
+  size: 150, 143
+  orig: 150, 143
+  offset: 0, 0
+  index: -1
+BT3c
+  rotate: false
+  xy: 168, 8
+  size: 152, 148
+  orig: 152, 148
+  offset: 0, 0
+  index: -1
+BT3d
+  rotate: false
+  xy: 465, 33
+  size: 153, 140
+  orig: 153, 140
+  offset: 0, 0
+  index: -1
+seng1
+  rotate: true
+  xy: 0, 157
+  size: 16, 457
+  orig: 16, 457
+  offset: 0, 0
+  index: -1

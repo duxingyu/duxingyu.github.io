@@ -1,1 +1,125 @@
-﻿<!DOCTYPE html><html><head><meta charset=UTF-8><meta name=viewport content="width=device-width,minimum-scale=1,maximum-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=keywords content="vuejs, nodejs, cnodejs, vue"><title>CNode：Node.js专业中文社区</title><link rel="shortcut icon" type=image/ico href=/favicon.ico><link rel=stylesheet href="https://fonts.googleapis.com/icon?family=Material+Icons"><link href=/static/css/app.ec52cbc236c82f7ba47bf202a6f3bf60.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.d94df1806b9156a29767.js></script><script type=text/javascript src=/static/js/app.4bc7f538ffd1738d1ef5.js></script></body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="full-screen" content="yes" />
+  <meta name="screen-orientation" content="landscape" />
+  <title>麦田阅读课</title>
+  <link rel="stylesheet" href="./common/main.css?v=5">
+  <link rel="stylesheet" href="./common/images/common.css?v=5">
+  <link rel="stylesheet" href="./lib/swiper.css">
+  <link rel="stylesheet" href="./src/1/index.css?v=5">
+  <script src="./lib/zepto.min.js"></script>
+  <!-- <script src="https://www.mytian.com.cn/myhtml/thirdParty-js/vconsole.min.js"></script>
+  <script>
+    new VConsole();
+  </script> -->
+</head>
+<body>
+  <div id="wrapper">
+
+    <div id="loading">
+      <img src="https://mytianh5.oss-cn-beijing.aliyuncs.com/bigComplexWeb/ma/common/images/startLoading.gif">
+    </div>
+    <div id="home">
+      <img src="./common/images/jiemianbg.png" class="bg">
+      <div class="titlebox"></div>
+      <div class="spriteo title"></div>
+      <div class="chlist">
+        <div class="spriteo card1"></div>
+        <div class="spriteo card2"></div>
+        <div class="spriteo card3"></div>
+        <div class="spriteo card4"></div>
+      </div>
+      <div class="cardtxt">
+        <div class="card1txt"></div>
+        <div class="card2txt"></div>
+        <div class="card3txt"></div>
+        <div class="card4txt"></div>
+      </div>
+    </div>
+    <div id="chs">
+      <div class="ch ch1" id="book">
+        <div class="fengmian">
+          <img src="./src/1/images/bg.jpg" class="bg">
+          <div class="imgs">
+            <img src="./src/1/images/story.png" class="story">
+          </div>
+          <div class="bookmode"></div>
+          <div class="videomode"></div>
+        </div>
+        <img src="./common/images/shouzhi.png" id="handtip">
+        <div class="swiper">
+          <img src="./common/images/prebtn.png" class="prev arrow disable">
+          <img src="./common/images/nextbtn.png" class="next arrow">
+        </div>
+      </div>
+      <div class="ch ch2" id="ques">
+        <img src="./common/images/ch2bg.jpg" class="bg">
+        <div class="wrap">
+          <img src="./common/images/quesbg.png" class="bgq">
+          <div class="ansbox ansbox1">
+            <div class="spriteq ans11"></div>
+            <div class="uidui ui"></div>
+          </div>
+          <div class="ansbox ansbox2">
+            <div class="spriteq ans12"></div>
+            <div class="uicuo ui"></div>
+          </div>
+          <div class="queswrap">
+            <div class="quesbox"></div>
+            <div class="spriteq ques1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="ch ch3" id="record">
+        <img src="./common/images/ch3bg.jpg" class="bg">
+        <div class="wrap">
+          <img src="./common/images/ch3bg1.png" class="bgq">
+          <div class="scene scene1 spriter"></div>
+          <img src="./src/1/images/diban.png" class="diban">
+          <div class="scene1ques quescont spriter"></div>
+          <div class="recordques"></div>
+          <div class="recordbtn"></div>
+          <div class="recordplaybtn"></div>
+        </div>
+      </div>
+      <div class="ch ch4" id="expand">
+        <video src="https://mytianh5.oss-cn-beijing.aliyuncs.com/readingClass/expandtitle.mp4" class="expandvideo"  controlsList="nofullscreen nodownload noremote footbar" playsinline="true" webkit-playsinline="true" x-webkit-airplay="true" airplay="allow" preload="auto" x5-playsinline="true"  x5-video-player-type="h5" x5-video-player-fullscreen="false"></video>
+      </div>
+    </div>
+    <div id="video">
+      <video src="https://mytianh5.oss-cn-beijing.aliyuncs.com/readingClass/expandtitle.mp4" controls  controlsList="nofullscreen nodownload noremote footbar" playsinline="true" webkit-playsinline="true" x-webkit-airplay="true" airplay="allow" preload="auto" x5-playsinline="true"  x5-video-player-type="h5" x5-video-player-fullscreen="false"></video>
+    </div>
+    <div id="titles">
+
+    </div>
+    <div id="return">
+      <div class="backbtn"></div>
+    </div>
+    <div id="jiesuan"></div>
+  </div>
+  <script>
+    var Linkpre = './';
+    // var Linkpre = 'https://mytianh5.oss-cn-beijing.aliyuncs.com/bigComplexWeb/ma/';
+  </script>
+  <script src="./lib/all.js"></script>
+  <script src="./lib/preloadjs.min.js"></script>
+  <script src="./common/ts/common.js?v=5"></script>
+  <script src="./src/1/data.js?v=5"></script>
+  <script src="./common/ts/main.js?v=5"></script>
+  <script src="./common/ts/jiesuan.js?v=5"></script>
+  <!-- <script src="https://www.mytian.com.cn/myhtml/thirdParty-js/vconsole.min.js"></script>
+  <script>
+    new VConsole();
+  </script> -->
+</body>
+</html>

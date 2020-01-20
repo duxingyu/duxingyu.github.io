@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es5",
+    "module": "ES2015",
+    "removeComments": true,
+    "watch": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "common/ts/*.ts",
+    "src/**/**/*.ts"
+  ],
+  "exclude": [
+      "node_modules",
+      "lib/pixi-spine.d.ts"
+  ],
+  "compileOnSave": true
+}

@@ -1,0 +1,20 @@
+
+duicuo.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cuo
+  rotate: false
+  xy: 266, 0
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+dui
+  rotate: false
+  xy: 0, 0
+  size: 265, 176
+  orig: 265, 176
+  offset: 0, 0
+  index: -1

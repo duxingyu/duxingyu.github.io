@@ -1,0 +1,71 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+
+.ansbox {max-width:437px; max-height:452px; }
+.ansbox::after {content: '\00a0';display: inline-block; width:437px; height:452px; background-position: 0.06934812760055478% 9.090909090909092%;background-size: 429.9771167048055% 102.43362831858407%;background-image: url(common.png);padding: 0; }
+div.ansbox::after {max-width:437px; width:100%;height:0;padding: 0 0 103.4324942791762% 0;}
+.backbtn {max-width:105px; max-height:105px; }
+.backbtn::after {content: '\00a0';display: inline-block; width:105px; height:105px; background-position: 94.92671927846675% 99.44134078212291%;background-size: 1789.5238095238096% 440.95238095238096%;background-image: url(common.png);padding: 0; }
+div.backbtn::after {max-width:105px; width:100%;height:0;padding: 0 0 100% 0;}
+.bookmode {max-width:122px; max-height:76px; }
+.bookmode::after {content: '\00a0';display: inline-block; width:122px; height:76px; background-position: 52.134319863403526% 65.63307493540051%;background-size: 1540.1639344262296% 609.2105263157895%;background-image: url(common.png);padding: 0; }
+div.bookmode::after {max-width:122px; width:100%;height:0;padding: 0 0 62.295081967213115% 0;}
+.card1txt {max-width:97px; max-height:51px; }
+.card1txt::after {content: '\00a0';display: inline-block; width:97px; height:51px; background-position: 92.81705948372615% 27.9126213592233%;background-size: 1937.1134020618556% 907.843137254902%;background-image: url(common.png);padding: 0; }
+div.card1txt::after {max-width:97px; width:100%;height:0;padding: 0 0 52.577319587628864% 0;}
+.card2txt {max-width:194px; max-height:53px; }
+.card2txt::after {content: '\00a0';display: inline-block; width:194px; height:53px; background-position: 54.362017804154306% 48.78048780487805%;background-size: 968.5567010309278% 873.5849056603773%;background-image: url(common.png);padding: 0; }
+div.card2txt::after {max-width:194px; width:100%;height:0;padding: 0 0 27.31958762886598% 0;}
+.card3txt {max-width:221px; max-height:49px; }
+.card3txt::after {content: '\00a0';display: inline-block; width:221px; height:49px; background-position: 86.36911942098915% 27.77777777777778%;background-size: 850.2262443438914% 944.8979591836735%;background-image: url(common.png);padding: 0; }
+div.card3txt::after {max-width:221px; width:100%;height:0;padding: 0 0 22.171945701357465% 0;}
+.card4txt {max-width:193px; max-height:55px; }
+.card4txt::after {content: '\00a0';display: inline-block; width:193px; height:55px; background-position: 54.32977461447212% 35.294117647058826%;background-size: 973.5751295336787% 841.8181818181819%;background-image: url(common.png);padding: 0; }
+div.card4txt::after {max-width:193px; width:100%;height:0;padding: 0 0 28.497409326424872% 0;}
+.expandbtn {max-width:165px; max-height:72px; }
+.expandbtn::after {content: '\00a0';display: inline-block; width:165px; height:72px; background-position: 88.56476079346558% 91.04859335038363%;background-size: 1138.7878787878788% 643.0555555555555%;background-image: url(common.png);padding: 0; }
+div.expandbtn::after {max-width:165px; width:100%;height:0;padding: 0 0 43.63636363636363% 0;}
+.laba {max-width:74px; max-height:62px; }
+.laba::after {content: '\00a0';display: inline-block; width:74px; height:62px; background-position: 99.16897506925208% 88.7780548628429%;background-size: 2539.189189189189% 746.7741935483871%;background-image: url(common.png);padding: 0; }
+div.laba::after {max-width:74px; width:100%;height:0;padding: 0 0 83.78378378378379% 0;}
+.nextbtn {max-width:52px; max-height:88px; }
+.nextbtn::after {content: '\00a0';display: inline-block; width:52px; height:88px; background-position: 99.94526546250684% 0.26666666666666666%;background-size: 3613.4615384615386% 526.1363636363636%;background-image: url(common.png);padding: 0; }
+div.nextbtn::after {max-width:52px; width:100%;height:0;padding: 0 0 169.23076923076923% 0;}
+.prebtn {max-width:52px; max-height:88px; }
+.prebtn::after {content: '\00a0';display: inline-block; width:52px; height:88px; background-position: 99.94526546250684% 24%;background-size: 3613.4615384615386% 526.1363636363636%;background-image: url(common.png);padding: 0; }
+div.prebtn::after {max-width:52px; width:100%;height:0;padding: 0 0 169.23076923076923% 0;}
+.quesbox {max-width:1078px; max-height:90px; }
+.quesbox::after {content: '\00a0';display: inline-block; width:1078px; height:90px; background-position: 54.80649188514357% 99.73190348525469%;background-size: 174.30426716141002% 514.4444444444445%;background-image: url(common.png);padding: 0; }
+div.quesbox::after {max-width:1078px; width:100%;height:0;padding: 0 0 8.348794063079778% 0;}
+.recordbtn {max-width:278px; max-height:197px; }
+.recordbtn::after {content: '\00a0';display: inline-block; width:278px; height:197px; background-position: 27.420362273579013% 54.13533834586466%;background-size: 675.8992805755396% 235.0253807106599%;background-image: url(common.png);padding: 0; }
+div.recordbtn::after {max-width:278px; width:100%;height:0;padding: 0 0 70.86330935251799% 0;}
+.recordplaybtn {max-width:197px; max-height:196px; }
+.recordplaybtn::after {content: '\00a0';display: inline-block; width:197px; height:196px; background-position: 42.687277051129605% 53.93258426966292%;background-size: 953.8071065989848% 236.22448979591837%;background-image: url(common.png);padding: 0; }
+div.recordplaybtn::after {max-width:197px; width:100%;height:0;padding: 0 0 99.49238578680203% 0;}
+.recordques {max-width:650px; max-height:113px; }
+.recordques::after {content: '\00a0';display: inline-block; width:650px; height:113px; background-position: 95.60618388934093% 0.2857142857142857%;background-size: 289.0769230769231% 409.7345132743363%;background-image: url(common.png);padding: 0; }
+div.recordques::after {max-width:650px; width:100%;height:0;padding: 0 0 17.384615384615383% 0;}
+.shouzhi {max-width:256px; max-height:256px; }
+.shouzhi::after {content: '\00a0';display: inline-block; width:256px; height:256px; background-position: 72.39679605668515% 55.55555555555556%;background-size: 733.984375% 180.859375%;background-image: url(common.png);padding: 0; }
+div.shouzhi::after {max-width:256px; width:100%;height:0;padding: 0 0 100% 0;}
+.titlebox {max-width:735px; max-height:142px; }
+.titlebox::after {content: '\00a0';display: inline-block; width:735px; height:142px; background-position: 38.37412587412587% 0.3115264797507788%;background-size: 255.64625850340136% 326.056338028169%;background-image: url(common.png);padding: 0; }
+div.titlebox::after {max-width:735px; width:100%;height:0;padding: 0 0 19.31972789115646% 0;}
+.uicuo {max-width:176px; max-height:176px; }
+.uicuo::after {content: '\00a0';display: inline-block; width:176px; height:176px; background-position: 99.70640046975925% 62.36933797909408%;background-size: 1067.6136363636363% 263.0681818181818%;background-image: url(common.png);padding: 0; }
+div.uicuo::after {max-width:176px; width:100%;height:0;padding: 0 0 100% 0;}
+.uidui {max-width:265px; max-height:176px; }
+.uidui::after {content: '\00a0';display: inline-block; width:265px; height:176px; background-position: 88.72366790582404% 62.36933797909408%;background-size: 709.0566037735849% 263.0681818181818%;background-image: url(common.png);padding: 0; }
+div.uidui::after {max-width:265px; width:100%;height:0;padding: 0 0 66.41509433962264% 0;}
+.videomode {max-width:122px; max-height:76px; }
+.videomode::after {content: '\00a0';display: inline-block; width:122px; height:76px; background-position: 59.1348890153671% 65.63307493540051%;background-size: 1540.1639344262296% 609.2105263157895%;background-image: url(common.png);padding: 0; }
+div.videomode::after {max-width:122px; width:100%;height:0;padding: 0 0 62.295081967213115% 0;}
+
+/* $TexturePacker:SmartUpdate:d2d4beb228373febed629b93092f72e1:39ae4e9fe7277a22d7e973029aefe950:9af76e268680f840cf85311fc65601f1$ */

@@ -1,0 +1,28 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:87f893882dcfbf7486fc37280028164f:195c708f70ee7af23a2afbe3a354c8fb:8ef7a5523759848b8f2b1093d16b33ea$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(texture.png);}
+
+.pangbai1a {width:964px; height:32px; background-position: -1px -432px}
+.pangbai1b {width:964px; height:32px; background-position: -1px -466px}
+.pangbai2a {width:999px; height:32px; background-position: -1px -364px}
+.pangbai2b {width:999px; height:32px; background-position: -1px -398px}
+.zhu1 {width:215px; height:313px; background-position: -575px -500px}
+.zhu1_1 {width:210px; height:312px; background-position: -790px -1px}
+.zhu1_hua {width:148px; height:71px; background-position: -792px -648px}
+.zhu2 {width:319px; height:361px; background-position: -1px -1px}
+.zhu2_1 {width:239px; height:310px; background-position: -322px -1px}
+.zhu2_hua {width:159px; height:72px; background-position: -792px -574px}
+.zhu3 {width:225px; height:323px; background-position: -563px -1px}
+.zhuma {width:285px; height:383px; background-position: -1px -500px}
+.zhuma_1 {width:285px; height:383px; background-position: -288px -500px}
+.zhuma_hua {width:186px; height:72px; background-position: -792px -500px}

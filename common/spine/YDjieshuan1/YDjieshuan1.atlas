@@ -1,0 +1,27 @@
+
+YDjieshuan1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imagesYD/guang0
+  rotate: false
+  xy: 0, 356
+  size: 1353, 1338
+  orig: 1353, 1338
+  offset: 0, 0
+  index: -1
+imagesYD/js1ban1
+  rotate: false
+  xy: 0, 0
+  size: 572, 355
+  orig: 572, 355
+  offset: 0, 0
+  index: -1
+imagesYD/js1ban1z
+  rotate: false
+  xy: 1354, 1404
+  size: 494, 290
+  orig: 494, 290
+  offset: 0, 0
+  index: -1

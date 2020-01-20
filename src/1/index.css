@@ -1,0 +1,248 @@
+
+.sprite1 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/1/texture.png);}
+
+.sprite1.pangbai1a {width:967px; height:51px; background-position: -1px -1515px}
+.sprite1.pangbai1b {width:967px; height:51px; background-position: -1px -1568px}
+.sprite1.pangbai2a {width:513px; height:25px; background-position: -1px -1621px}
+.sprite1.pangbai2b {width:513px; height:25px; background-position: -1px -1648px}
+.sprite1.zhu1 {width:234px; height:326px; background-position: -1px -942px}
+.sprite1.zhu1_1 {width:234px; height:326px; background-position: -237px -942px}
+.sprite1.zhu1_hua {width:90px; height:65px; background-position: -473px -1009px}
+.sprite1.zhu2 {width:333px; height:339px; background-position: -601px -542px}
+.sprite1.zhu2_1 {width:333px; height:339px; background-position: -601px -883px}
+.sprite1.zhu2_hua {width:97px; height:65px; background-position: -473px -942px}
+.sprite1.zhu3 {width:235px; height:289px; background-position: -473px -1224px}
+.sprite1.zhu3_1 {width:235px; height:289px; background-position: -710px -1224px}
+.sprite1.zhu3_hua {width:155px; height:72px; background-position: -1px -1345px}
+.sprite1.zhuma {width:298px; height:398px; background-position: -1px -542px}
+.sprite1.zhuma_1 {width:298px; height:398px; background-position: -301px -542px}
+.sprite1.zhuma_hua {width:400px; height:73px; background-position: -1px -1270px}
+.sprite1.zhuozi {width:962px; height:539px; background-position: -1px -1px}
+
+.sprite2 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/2/texture.png);}
+
+.sprite2.caodui {width:670px; height:477px; background-position: -1px -107px}
+.sprite2.daocaofang {width:667px; height:460px; background-position: -1px -586px}
+.sprite2.pangbai1a {width:973px; height:51px; background-position: -1px -1px}
+.sprite2.pangbai1b {width:973px; height:51px; background-position: -1px -54px}
+.sprite2.pangbai2a {width:116px; height:25px; background-position: -846px -254px}
+.sprite2.pangbai2b {width:116px; height:25px; background-position: -846px -281px}
+.sprite2.zhu1 {width:327px; height:250px; background-position: -540px -1048px}
+.sprite2.zhu1_1 {width:537px; height:255px; background-position: -1px -1048px}
+.sprite2.zhu1_hua {width:206px; height:72px; background-position: -673px -180px}
+.sprite2.zhu1_hua2 {width:215px; height:71px; background-position: -673px -107px}
+.sprite2.zhu2 {width:171px; height:213px; background-position: -673px -254px}
+.sprite2.zhu2_1 {width:170px; height:215px; background-position: -673px -469px}
+.sprite2.zhu3 {width:158px; height:218px; background-position: -832px -686px}
+.sprite2.zhu3_1 {width:160px; height:219px; background-position: -670px -686px}
+
+.sprite3 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/3/texture.png);}
+
+.sprite3.mutou {width:667px; height:210px; background-position: -1px -573px}
+.sprite3.muwu {width:576px; height:570px; background-position: -1px -1px}
+.sprite3.pangbai1a {width:917px; height:55px; background-position: -1px -785px}
+.sprite3.pangbai1b {width:917px; height:55px; background-position: -1px -842px}
+.sprite3.pangbai2a {width:136px; height:25px; background-position: -790px -206px}
+.sprite3.pangbai2b {width:136px; height:25px; background-position: -579px -517px}
+.sprite3.zhu2 {width:182px; height:203px; background-position: -579px -239px}
+.sprite3.zhu2_1 {width:209px; height:236px; background-position: -579px -1px}
+.sprite3.zhu2_hua {width:223px; height:71px; background-position: -717px -517px}
+.sprite3.zhu2_hua2 {width:263px; height:71px; background-position: -579px -444px}
+.sprite3.zhu3 {width:153px; height:203px; background-position: -763px -239px}
+.sprite3.zhu3_1 {width:150px; height:203px; background-position: -790px -1px}
+
+.sprite4 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/4/texture.png);}
+
+.sprite4.fangzi {width:468px; height:446px; background-position: -1px -109px}
+.sprite4.pangbai1a {width:957px; height:52px; background-position: -1px -1px}
+.sprite4.pangbai1b {width:957px; height:52px; background-position: -1px -55px}
+.sprite4.pangbai2a {width:313px; height:35px; background-position: -184px -557px}
+.sprite4.pangbai2b {width:313px; height:35px; background-position: -184px -594px}
+.sprite4.qiang {width:429px; height:255px; background-position: -499px -109px}
+.sprite4.zhu3 {width:138px; height:170px; background-position: -471px -366px}
+.sprite4.zhu3_1 {width:142px; height:167px; background-position: -611px -366px}
+.sprite4.zhu3_hua {width:319px; height:74px; background-position: -499px -538px}
+.sprite4.zhu3_hua2 {width:181px; height:72px; background-position: -1px -557px}
+
+.sprite5 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/5/texture.png);}
+
+.sprite5.lang {width:360px; height:404px; background-position: -1px -1px}
+.sprite5.lang_1 {width:360px; height:404px; background-position: -363px -1px}
+.sprite5.lang_hua {width:326px; height:74px; background-position: -1px -575px}
+.sprite5.pangbai1a {width:948px; height:49px; background-position: -1px -407px}
+.sprite5.pangbai1b {width:948px; height:49px; background-position: -1px -458px}
+.sprite5.pangbai2a {width:808px; height:31px; background-position: -1px -509px}
+.sprite5.pangbai2b {width:808px; height:31px; background-position: -1px -542px}
+.sprite5.pao1 {width:73px; height:105px; background-position: -895px -123px}
+.sprite5.pao2 {width:259px; height:120px; background-position: -725px -1px}
+.sprite5.pao3 {width:168px; height:96px; background-position: -725px -123px}
+
+.sprite6 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/6/texture.png);}
+
+.sprite6.lang {width:535px; height:323px; background-position: -1px -103px}
+.sprite6.pangbai1a {width:965px; height:49px; background-position: -1px -1px}
+.sprite6.pangbai1b {width:965px; height:49px; background-position: -1px -52px}
+.sprite6.pangbai2a {width:194px; height:28px; background-position: -280px -428px}
+.sprite6.pangbai2b {width:194px; height:28px; background-position: -280px -458px}
+.sprite6.zhu1 {width:261px; height:201px; background-position: -538px -103px}
+.sprite6.zhu1_1 {width:261px; height:201px; background-position: -538px -306px}
+.sprite6.zhu1_hua {width:277px; height:74px; background-position: -1px -428px}
+
+.sprite7 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/7/texture.png);}
+
+.sprite7.lang {width:183px; height:154px; background-position: -1125px -315px}
+.sprite7.pangbai1a {width:895px; height:56px; background-position: -1px -315px}
+.sprite7.pangbai1b {width:895px; height:56px; background-position: -1px -373px}
+.sprite7.pangbai2a {width:233px; height:43px; background-position: -655px -431px}
+.sprite7.pangbai2b {width:233px; height:43px; background-position: -890px -431px}
+.sprite7.zhu1 {width:603px; height:312px; background-position: -1px -1px}
+.sprite7.zhu1_1 {width:602px; height:312px; background-position: -606px -1px}
+.sprite7.zhu1_hua {width:296px; height:73px; background-position: -357px -431px}
+.sprite7.zhu2 {width:205px; height:253px; background-position: -1210px -1px}
+.sprite7.zhu2_1 {width:195px; height:255px; background-position: -1310px -256px}
+.sprite7.zhu2_hua {width:354px; height:73px; background-position: -1px -431px}
+
+.sprite8 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/8/texture.png);}
+
+.sprite8.lang {width:671px; height:368px; background-position: -1px -1px}
+.sprite8.pangbai1a {width:830px; height:56px; background-position: -674px -1px}
+.sprite8.pangbai1b {width:830px; height:56px; background-position: -674px -59px}
+.sprite8.zhu1 {width:380px; height:265px; background-position: -674px -117px}
+.sprite8.zhu2 {width:197px; height:250px; background-position: -1056px -117px}
+
+.sprite9 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/9/texture.png);}
+
+.sprite9.lang {width:245px; height:272px; background-position: -1718px -582px}
+.sprite9.lang_1 {width:245px; height:271px; background-position: -276px -835px}
+.sprite9.lang_hua {width:256px; height:73px; background-position: -1422px -845px}
+.sprite9.pangbai1a {width:897px; height:57px; background-position: -523px -835px}
+.sprite9.pangbai1b {width:897px; height:57px; background-position: -523px -894px}
+.sprite9.suduxian {width:1440px; height:832px; background-position: -1px -1px}
+.sprite9.zhu1 {width:537px; height:289px; background-position: -1443px -1px}
+.sprite9.zhu12_hua {width:221px; height:76px; background-position: -1680px -856px}
+.sprite9.zhu1_1 {width:537px; height:288px; background-position: -1443px -292px}
+.sprite9.zhu2 {width:273px; height:261px; background-position: -1443px -582px}
+.sprite9.zhu2_1 {width:273px; height:261px; background-position: -1px -835px}
+
+.sprite10 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/10/texture.png);}
+
+.sprite10.lang {width:141px; height:119px; background-position: -777px -136px}
+.sprite10.pangbai1a {width:774px; height:46px; background-position: -1px -180px}
+.sprite10.pangbai1b {width:774px; height:46px; background-position: -1px -228px}
+.sprite10.zhu1 {width:291px; height:160px; background-position: -299px -1px}
+.sprite10.zhu2 {width:296px; height:177px; background-position: -1px -1px}
+.sprite10.zhu3 {width:397px; height:133px; background-position: -592px -1px}
+
+.sprite11 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/11/texture.png);}
+
+.sprite11.fangkuang {width:771px; height:632px; background-position: -1px -1px}
+.sprite11.lang {width:597px; height:342px; background-position: -1px -635px}
+.sprite11.lang_1 {width:265px; height:367px; background-position: -600px -720px}
+.sprite11.lang_hua {width:226px; height:72px; background-position: -554px -1165px}
+.sprite11.pangbai1a {width:855px; height:50px; background-position: -1px -1239px}
+.sprite11.pangbai1b {width:855px; height:50px; background-position: -1px -1291px}
+.sprite11.zhu1 {width:551px; height:246px; background-position: -1px -979px}
+.sprite11.zhu2 {width:179px; height:237px; background-position: -774px -1px}
+.sprite11.zhu3 {width:173px; height:239px; background-position: -774px -240px}
+.sprite11.zhu3_1 {width:172px; height:237px; background-position: -774px -481px}
+.sprite11.zhu3_hua {width:377px; height:74px; background-position: -554px -1089px}
+
+.sprite12 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/12/texture.png);}
+
+.sprite12.lang {width:391px; height:405px; background-position: -1px -99px}
+.sprite12.lang_1 {width:166px; height:172px; background-position: -710px -99px}
+.sprite12.lang_hua {width:314px; height:72px; background-position: -394px -99px}
+.sprite12.pangbai1a {width:964px; height:47px; background-position: -1px -1px}
+.sprite12.pangbai1b {width:964px; height:47px; background-position: -1px -50px}
+.sprite12.pangbai2a {width:140px; height:25px; background-position: -394px -173px}
+.sprite12.pangbai2b {width:140px; height:25px; background-position: -394px -200px}
+
+.sprite13 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/13/texture.png);}
+
+.sprite13.lang {width:242px; height:207px; background-position: -1px -741px}
+.sprite13.lang_hua {width:219px; height:73px; background-position: -245px -741px}
+.sprite13.pangbai1a {width:974px; height:51px; background-position: -1px -1px}
+.sprite13.pangbai1b {width:974px; height:51px; background-position: -1px -54px}
+.sprite13.pangbai2a {width:115px; height:25px; background-position: -353px -665px}
+.sprite13.pangbai2b {width:115px; height:25px; background-position: -353px -692px}
+.sprite13.shaokai {width:471px; height:556px; background-position: -1px -107px}
+.sprite13.yanconghou {width:398px; height:373px; background-position: -474px -630px}
+.sprite13.yancongqian {width:466px; height:521px; background-position: -474px -107px}
+.sprite13.zhu1 {width:350px; height:228px; background-position: -337px -1005px}
+.sprite13.zhu2 {width:175px; height:227px; background-position: -689px -1005px}
+.sprite13.zhu3 {width:166px; height:231px; background-position: -1px -1005px}
+.sprite13.zhu3_1 {width:166px; height:231px; background-position: -169px -1005px}
+.sprite13.zhu3_hua {width:350px; height:74px; background-position: -1px -665px}
+
+.sprite14 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/14/texture.png);}
+
+.sprite14.lang {width:475px; height:364px; background-position: -1px -97px}
+.sprite14.pangbai1a {width:947px; height:46px; background-position: -1px -1px}
+.sprite14.pangbai1b {width:947px; height:46px; background-position: -1px -49px}
+.sprite14.zhu1 {width:125px; height:80px; background-position: -478px -265px}
+.sprite14.zhu2 {width:63px; height:81px; background-position: -478px -182px}
+.sprite14.zhu3 {width:63px; height:83px; background-position: -478px -97px}
+
+
+.sprite15 {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(./ch1/15/texture.png);}
+
+.sprite15.pangbai1a {width:964px; height:32px; background-position: -1px -432px}
+.sprite15.pangbai1b {width:964px; height:32px; background-position: -1px -466px}
+.sprite15.pangbai2a {width:999px; height:32px; background-position: -1px -364px}
+.sprite15.pangbai2b {width:999px; height:32px; background-position: -1px -398px}
+.sprite15.zhu1 {width:215px; height:313px; background-position: -575px -500px}
+.sprite15.zhu1_1 {width:210px; height:312px; background-position: -790px -1px}
+.sprite15.zhu1_hua {width:148px; height:71px; background-position: -792px -648px}
+.sprite15.zhu2 {width:319px; height:361px; background-position: -1px -1px}
+.sprite15.zhu2_1 {width:239px; height:310px; background-position: -322px -1px}
+.sprite15.zhu2_hua {width:159px; height:72px; background-position: -792px -574px}
+.sprite15.zhu3 {width:225px; height:323px; background-position: -563px -1px}
+.sprite15.zhuma {width:285px; height:383px; background-position: -1px -500px}
+.sprite15.zhuma_1 {width:285px; height:383px; background-position: -288px -500px}
+.sprite15.zhuma_hua {width:186px; height:72px; background-position: -792px -500px}
+
+/** 问题 */
+.spriteq {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(images/questions.png);}
+
+.spriteq.ans11 {width:389px; height:310px; background-position: -1px -186px}
+.spriteq.ans12 {width:273px; height:226px; background-position: -680px -977px}
+.spriteq.ans21 {width:305px; height:286px; background-position: -680px -689px}
+.spriteq.ans22 {width:340px; height:326px; background-position: -665px -49px}
+.spriteq.ans31 {width:351px; height:364px; background-position: -1px -917px}
+.spriteq.ans32 {width:292px; height:384px; background-position: -386px -893px}
+.spriteq.ans41 {width:383px; height:373px; background-position: -1px -542px}
+.spriteq.ans42 {width:375px; height:310px; background-position: -630px -377px}
+.spriteq.ans51 {width:219px; height:353px; background-position: -388px -538px}
+.spriteq.ans52 {width:236px; height:350px; background-position: -392px -186px}
+.spriteq.ques1 {width:528px; height:43px; background-position: -1px -141px}
+.spriteq.ques2 {width:662px; height:44px; background-position: -1px -49px}
+.spriteq.ques3 {width:801px; height:46px; background-position: -1px -1px}
+.spriteq.ques4 {width:385px; height:42px; background-position: -1px -498px}
+.spriteq.ques5 {width:528px; height:44px; background-position: -1px -95px}
+
+/** 录音小剧场 */
+.spriter {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(images/record.png);}
+
+.spriter.scene1 {width:759px; height:222px; background-position: -1px -452px}
+.spriter.scene1ques {width:479px; height:22px; background-position: -1px -700px}
+.spriter.scene2 {width:946px; height:449px; background-position: -1px -1px}
+.spriter.scene2ques {width:591px; height:22px; background-position: -1px -676px}
+
+/** 其他 */
+.spriteo {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(images/other.png);}
+.spriteo.card1 {width:242px; height:298px; background-position: -1px -45px}
+.spriteo.card2 {width:241px; height:298px; background-position: -245px -45px}
+.spriteo.card3 {width:241px; height:298px; background-position: -1px -345px}
+.spriteo.card4 {width:242px; height:298px; background-position: -244px -345px}
+.spriteo.title {width:378px; height:42px; background-position: -1px -1px}
+
+#record .scene1 {
+  position: absolute;
+  top: 500px;
+  left: 387px;
+}
+#record .scene2 {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}

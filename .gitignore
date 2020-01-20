@@ -1,11 +1,17 @@
-# Logs
+.DS_Store
+node_modules/
+dist/
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# node
-node_modules
-
-# eslint
-.eslintrc.json
-
-# VSCode
-.vscode
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.db
+*.map
+src/*/ch2/
+src/*/ch3/

@@ -1,0 +1,18 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:3cbd852a490abf63b90cf9a24e2a7ed3:a0f1e675ed602862d1c31aa04b38bd26:c8f078eb40e83fc2d9984263eef16553$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(record.png);}
+
+.scene1 {width:759px; height:222px; background-position: -1px -452px}
+.scene1ques {width:479px; height:22px; background-position: -1px -700px}
+.scene2 {width:946px; height:449px; background-position: -1px -1px}
+.scene2ques {width:591px; height:22px; background-position: -1px -676px}

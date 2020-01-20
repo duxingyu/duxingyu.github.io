@@ -1,0 +1,25 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:f11cfb16709aeaaaadb3f4fdba1e76e5:e1dd84566bbda258d73b5be63c28e8bb:8ef7a5523759848b8f2b1093d16b33ea$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(texture.png);}
+
+.fangkuang {width:771px; height:632px; background-position: -1px -1px}
+.lang {width:597px; height:342px; background-position: -1px -635px}
+.lang_1 {width:265px; height:367px; background-position: -600px -720px}
+.lang_hua {width:226px; height:72px; background-position: -554px -1165px}
+.pangbai1a {width:855px; height:50px; background-position: -1px -1239px}
+.pangbai1b {width:855px; height:50px; background-position: -1px -1291px}
+.zhu1 {width:551px; height:246px; background-position: -1px -979px}
+.zhu2 {width:179px; height:237px; background-position: -774px -1px}
+.zhu3 {width:173px; height:239px; background-position: -774px -240px}
+.zhu3_1 {width:172px; height:237px; background-position: -774px -481px}
+.zhu3_hua {width:377px; height:74px; background-position: -554px -1089px}
